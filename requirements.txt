@@ -1,0 +1,7 @@
+streamlit
+yfinance
+finnhub-python
+pandas
+vaderSentiment
+joblib
+scikit-learn==1.5.1
