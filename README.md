@@ -1,6 +1,6 @@
 # ☁️ Azure MLOps Pipeline & Live Equity Forecaster
 
-[![Live Deployment](https://img.shields.io/badge/Live_App-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)]([Insert your live Streamlit URL here])
+[![Live Deployment](https://img.shields.io/badge/Live_App-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)](https://stock-return-predictor-usa-mhalam.streamlit.app/)
 
 ## 📌 Architecture Overview
 This repository contains an end-to-end, cloud-native Machine Learning pipeline designed to forecast daily equity returns. The system integrates real-time market volatility data with live NLP sentiment analysis, utilizing **Microsoft Azure Machine Learning** for strict MLOps tracking and model registry, and a serverless frontend for live inference.
@@ -56,4 +56,7 @@ To run this pipeline locally:
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
+   git clone [https://github.com/MHAlam-2412/Live-ML-OPS-US_stock-predictor](https://github.com/MHAlam-2412/Live-ML-OPS-US_stock-predictor)
+
+2. pip install -r requirements.txt
+3. streamlit run app.py
